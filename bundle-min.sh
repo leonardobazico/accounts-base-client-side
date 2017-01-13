@@ -39,6 +39,7 @@ rm -rf $OUTPUT_PATH
 mkdir $OUTPUT_PATH
 
 # Concat files
+cat "$PACKAGES_PATH/random.js" >> $OUTPUT_PATH/$NAME.bundle.js
 cat "$PACKAGES_PATH/callback-hook.js" >> $OUTPUT_PATH/$NAME.bundle.js
 cat "$PACKAGES_PATH/localstorage.js" >> $OUTPUT_PATH/$NAME.bundle.js
 cat "$PACKAGES_PATH/accounts-base.js" >> $OUTPUT_PATH/$NAME.bundle.js
