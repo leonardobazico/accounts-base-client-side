@@ -1,0 +1,27 @@
+{
+  "name": "accounts-base-client-side",
+  "version": "1.2.8",
+  "description": "Use Meteor's accounts-base package with meteor-client-side",
+  "main": "dist/accounts-base-client-side.bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idanwe/accounts-base-client-side.git"
+  },
+  "keywords": [
+    "meteor",
+    "accounts",
+    "base",
+    "ddp",
+    "client",
+    "side"
+  ],
+  "author": "Idan Wender <idanwe2@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/idanwe/accounts-base-client-side/issues"
+  },
+  "homepage": "https://github.com/idanwe/accounts-base-client-side#readme"
+}
